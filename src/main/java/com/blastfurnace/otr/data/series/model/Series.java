@@ -90,5 +90,22 @@ public class Series {
 	@Column(name = "search_title")
 	private String searchTitle = "";
 	
+	@NotNull
+	@NotEmpty
+	@Size(max = 150)
+	@Column(name = "goldin_page_ref")
+	private String goldinPageRef = "";
+	
+	@NotNull
+	@NotEmpty
+	@Size(max = 150)
+	@Column(name = "salmonson_page_ref")
+	private String salmonsonPageRef = "";
+
+	@NotNull
+	@NotEmpty
+	@Size(max = 150)
+	@Column(name = "jerry_page_ref")
+	private String jerryPageRef = "";
 	
 }

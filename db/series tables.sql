@@ -11,6 +11,9 @@ CREATE TABLE `series` (
   `program_length` varchar(45) NOT NULL DEFAULT '00:30:00' COMMENT 'The Usual length of this series programs',
   `indexed` int(1) unsigned NOT NULL DEFAULT '0' COMMENT 'Have the files been matched to episodes of this series',
   `search_title` varchar(150) NOT NULL DEFAULT '' COMMENT 'Primary search title',
+  `goldin_page_ref` varchar(150) NOT NULL DEFAULT '' COMMENT 'GoldIndex search Program',
+  `salmonson_page_ref` varchar(150) NOT NULL DEFAULT '' COMMENT 'Samonson search Program',
+  `jerry_page_ref` varchar(150) NOT NULL DEFAULT '' COMMENT 'Jerry search Program',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2698 DEFAULT CHARSET=latin1 COMMENT='Information on an OTR series';
 
