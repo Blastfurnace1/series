@@ -15,7 +15,7 @@ import com.blastfurnace.otr.data.series.repository.SeriesAliasRepository;
 import com.blastfurnace.otr.data.series.repository.SeriesRepository;
 import com.blastfurnace.otr.data.series.repository.SeriesSummaryRepository;
 import com.blastfurnace.otr.data.series.service.model.SeriesDataWrapper;
-import com.blastfurnace.otr.rest.request.QueryData;
+import com.blastfurnace.otr.service.request.QueryData;
 
 @Component("SeriesService")
 public class SeriesServiceImpl implements SeriesService {
