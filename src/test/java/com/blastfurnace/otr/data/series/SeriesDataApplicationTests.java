@@ -19,12 +19,8 @@ package com.blastfurnace.otr.data.series;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 
-import com.blastfurnace.otr.utils.UtilitiesApplicationTest;
+import com.blastfurnace.otr.AppConfigTest;
 
 import static org.assertj.core.api.BDDAssertions.then;
 
@@ -33,7 +29,7 @@ import static org.assertj.core.api.BDDAssertions.then;
  *
  * @author Jim Blackson
  */
-public class SeriesDataApplicationTests extends UtilitiesApplicationTest {
+public class SeriesDataApplicationTests extends AppConfigTest {
 	
 	private static final Logger log = LoggerFactory.getLogger(SeriesDataApplicationTests.class); 
 	
