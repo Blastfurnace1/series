@@ -17,6 +17,8 @@ package com.blastfurnace.otr.data.series;
 
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -33,9 +35,12 @@ import static org.assertj.core.api.BDDAssertions.then;
  */
 public class SeriesDataApplicationTests extends UtilitiesApplicationTest {
 	
+	private static final Logger log = LoggerFactory.getLogger(SeriesDataApplicationTests.class); 
+	
 	@Test
 	/** Test Data Access for Audio file Properties. */
-	public void shouldPerformAudioFilePropertiesRecordActions() throws Exception {
-	
+	public void shouldPerformSeriesDataRecordActions() throws Exception {
+		log.info("Series Data Tests - Start");
+		log.info("Series Data Tests - End");
 	}
 }
